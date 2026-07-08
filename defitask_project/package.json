@@ -1,0 +1,14 @@
+{
+  "name": "defitask-project",
+  "version": "1.0.0",
+  "description": "Decentralized Task Coordination & Escrow Payment Protocol",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test:e2e": "node e2e/run_e2e.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5",
+    "mocha": "^10.2.0"
+  }
+}
